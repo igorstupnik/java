@@ -32,9 +32,6 @@ public class AppForm extends JFrame {
             }
         });
 
-        /*JButton button = new JButton(String.valueOf(counter));
-        add(button, BorderLayout.CENTER);*/
-
         eastButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -50,14 +47,6 @@ public class AppForm extends JFrame {
                 textField.setText(String.valueOf(counter));
             }
         });
-
-        /*button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                counter++;
-                button.setText(String.valueOf(counter));
-            }
-        });*/
 
         setVisible(true);
     }
